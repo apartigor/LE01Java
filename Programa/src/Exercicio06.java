@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Exercicio06 {
-    public void executar() {
+    public static void executar() {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite a temperatura em graus Celsius:");

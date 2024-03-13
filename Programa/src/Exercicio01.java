@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Exercicio01 {
-    public void executar() {
+    public static void executar() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite um número: ");
         int numero = scanner.nextInt();
