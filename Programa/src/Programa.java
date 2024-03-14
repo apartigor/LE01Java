@@ -4,7 +4,6 @@ public class Programa {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Exibe o menu para o usuário
         System.out.println("Escolha o exercício que deseja executar:");
         System.out.println("1. Exercício 1");
         System.out.println("2. Exercício 2");
@@ -26,13 +25,10 @@ public class Programa {
         System.out.println("18. Exercício 18");
         System.out.println("19. Exercício 19");
         System.out.println("20. Exercício 20");
-        // Adicione mais opções de menu conforme necessário
 
-        // Lê a escolha do usuário
         System.out.print("Opção: ");
         int opcao = scanner.nextInt();
 
-        // Executa o exercício selecionado
         switch (opcao) {
             case 1:
                 Exercicio01.executar();
