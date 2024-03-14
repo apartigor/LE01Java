@@ -55,7 +55,7 @@ public class Programa {
             case 7:
                 Exercicio07.executar();
                 break;
-            case 8:
+            /*case 8:
                 Exercicio08.executar();
                 break;
             case 9:
@@ -93,7 +93,7 @@ public class Programa {
                 break;
             case 20:
                 Exercicio20.executar();
-                break;
+                break;*/
             default:
                 System.out.println("Opção inválida!");
         }
