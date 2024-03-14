@@ -35,7 +35,8 @@ public class Exercicio13 {
                 System.out.println("Operador Inválido");
                 return;
         }
-        System.out.printf("%.2f %c %.2f = %.2f", numA, op, numB, result);
         ler.close();
+        System.out.printf("%.2f %c %.2f = %.2f", numA, op, numB, result);
+
     }
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio16 {
+public class Exercicio18 {
     public static void executar() {
         Scanner ler = new Scanner(System.in);
         
@@ -11,9 +11,9 @@ public class Exercicio16 {
         System.out.println("Digite a nota 3 do aluno");
         double nota3 = ler.nextDouble();
 
-        double media = (nota1 + nota2 + nota3) / 3;
+        double media = 3 / ((1 / nota1) + (1 / nota2) + (1 / nota3));
 
-        System.out.printf("Média Ponderada: %.2f", media);
+        System.out.printf("Média Harmônica: %.2f", media);
         ler.close();
     }
 }

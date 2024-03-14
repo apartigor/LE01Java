@@ -16,7 +16,7 @@ public class Exercicio17 {
 
         double media = ((nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3)) / (peso1 + peso2 + peso3);
 
-        System.out.printf("Média: %.2f", media);
+        System.out.printf("Média Aritmética: %.2f", media);
         ler.close();
     }
 }
