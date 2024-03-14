@@ -91,9 +91,9 @@ public class Programa {
             case 19:
                 Exercicio19.executar();
                 break;
-            /*case 20:
+            case 20:
                 Exercicio20.executar();
-                break;*/
+                break;
             default:
                 System.out.println("Opção inválida!");
         }
