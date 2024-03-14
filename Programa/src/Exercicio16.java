@@ -14,5 +14,6 @@ public class Exercicio16 {
         double media = (nota1 + nota2 + nota3) / 3;
 
         System.out.printf("Média: %.2f", media);
+        ler.close();
     }
 }
