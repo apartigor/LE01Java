@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Exercicio15 {
     public static void executar() {
         Scanner ler = new Scanner(System.in);
-        System.out.println("Digite o (x1, x2) do P1");
+        System.out.println("Digite o (x1, y1) do P1");
         double x1 = ler.nextDouble();
         double y1 = ler.nextDouble();
 
